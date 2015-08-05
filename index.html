@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+		<title>text</title>
+
+	</head>
+	<body>
+		<button id="silly">do it</button>
+		<button id="clear">clear</button>
+		<div id="results"></div>
+
+		<script src="js/zeptojs.js"></script>
+		<script src="js/silly.js"></script>
+		<script>
+			$("#silly").click(function(){
+				SILLY.DoIt($("#results"));
+			});
+			$("#clear").click(function(){
+				$("#results").html("");
+			});
+		</script>
+	</body>
+</html>
