@@ -2,10 +2,13 @@
 <html>
 	<head>
 		<title>My First Jquery Mobile App</title>
+		<link rel="stylesheet" href="css/themes/myTheme.css" />
+		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 	</head>
 	<body>
-		<div data-role="page" id="page1">
+		<!-- available transitions: fade | flip | flow | pop | slide | slidedown | slidefade | slideup | turn | none -->
+		<div data-role="page" id="page1" data-theme="d">
 			<div data-role="header">
 				<h1>My first page</h1>
 			</div>
@@ -28,7 +31,7 @@
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
-				<a href="#page2" data-transition="pop">Page 2</a>
+				<a href="#page2" data-transition="slide">Page 2</a>
 			</div>
 			<div data-role="footer">
 				<h2>&copy; Rohane Hamilton 2015</h2>
@@ -36,7 +39,7 @@
 			</div>
 		</div>
 
-		<div data-role="page" id="page2">
+		<div data-role="page" id="page2" data-theme="d">
 			<div data-role="header">
 				<h1>My second page</h1>
 			</div>
@@ -50,7 +53,7 @@
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
-				<a href="#page1" data-transition="pop">Page 1</a>
+				<a href="#page1" data-transition="slide">Page 1</a>
 			</div>
 			<div data-role="footer">
 				<h2>&copy; Rohane Hamilton 2015</h2>
